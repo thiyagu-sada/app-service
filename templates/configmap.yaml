@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: conf-map-one
+data:
+  application-config.yaml: |-
+    library:
+      log:
+        format: json
+        level: {{ .Values.log.level }}
+    genCode:
+      upstream:
+        contextTimeout: 120s

@@ -1,0 +1,6 @@
+dependencies:
+- name: ci-common-template
+  repository: file://../ci-common-charts/chart
+  version: 1.0.0
+digest: sha256:bc3c8b1711f5bbf32b962ad88abca39dd99f58e30d7c4a27f31c98e3a7059237
+generated: "2021-11-03T19:09:04.455207+11:00"
