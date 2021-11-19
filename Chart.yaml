@@ -21,9 +21,10 @@ version: 0.1.0
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
+# repository: "file://../ci-common-charts/chart"
 appVersion: "1.16.0"
 
 dependencies:
   - name: ci-common-template
     version: 1.0.0
-    repository: "file://../ci-common-charts/chart"
+    repository: "https://raw.githubusercontent.com/thiyagu-sada/ci-common-charts/master/repo/"
